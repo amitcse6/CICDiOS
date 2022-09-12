@@ -24,6 +24,7 @@ class ViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }
         Analytics.trackEvent("navigate_to_calculate")
+        print("Hello world")
     }
     
     @IBAction func buttonEvent(_ sender: Any) {
